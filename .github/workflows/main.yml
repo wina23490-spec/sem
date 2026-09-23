@@ -31,3 +31,4 @@ jobs:
 
       - name: View logs
         run: docker logs devopscontainer
+
