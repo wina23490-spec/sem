@@ -9,8 +9,8 @@ public class App {
 
     public static void main(String[] args) {
 
-        MongoClient mongoClient = new MongoClient("localhost", 27000);
-
+        // Connect to MongoDB
+        MongoClient mongoClient = new MongoClient("mongo-dbserver");
         MongoDatabase database = mongoClient.getDatabase("mydb");
 
         MongoCollection<Document> collection =
