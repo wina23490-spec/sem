@@ -1,4 +1,4 @@
-FROM eclipse-temurin:26
+FROM eclipse-temurin:25
 
 COPY ./target/seMethod-0.1.0.2-jar-with-dependencies.jar /tmp
 
